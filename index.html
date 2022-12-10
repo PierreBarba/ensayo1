@@ -4,9 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ensayo de popop window</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    
+    <button data-modal-target="#modal" class="btn"> Open Modal </button>
+    <div class="modal" id="modal" >
+        <div class="modalHeader">
+            <div class="title"> title of the modal </div>
+            <button data-close-button class="closeBtn"> &times; </button>
+        </div>
+        <div class="body">
+            Lorem, ipsum dolor sit amet consectetur 
+            adipisicing elit.
+             Nobis blanditiis molestias, 
+            facilis unde cumque, ab illum odit eos error 
+            commodi perferendis optio officia 
+            omnis nisi repellat ipsa 
+            delectus quisquam eum!
+        </div>
+    </div>
+    <div id="overlay" class="active"></div>
+    <link rel="stylesheet" href="./index.js">
 </body>
 </html>
